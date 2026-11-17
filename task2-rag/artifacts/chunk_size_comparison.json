@@ -1,0 +1,12 @@
+{
+  "small": {
+    "hits": 12,
+    "total": 15,
+    "recall_at_5": 0.8
+  },
+  "large": {
+    "hits": 9,
+    "total": 15,
+    "recall_at_5": 0.6
+  }
+}

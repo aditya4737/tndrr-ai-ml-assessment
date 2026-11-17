@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "How does NIST define an AI system?",
+    "gold_page": 6,
+    "gold_anchor": "engineered or machine-based system"
+  },
+  {
+    "id": 2,
+    "question": "Why can AI systems create risks that differ from traditional software systems?",
+    "gold_page": 6,
+    "gold_anchor": "risks posed by AI systems are in many ways unique"
+  },
+  {
+    "id": 3,
+    "question": "What are the four core functions of the NIST AI RMF?",
+    "gold_page": 8,
+    "gold_anchor": "four specific functions"
+  },
+  {
+    "id": 4,
+    "question": "What does validity and reliability mean for an AI system?",
+    "gold_page": 18,
+    "gold_anchor": "Validation is the"
+  },
+  {
+    "id": 5,
+    "question": "What is the purpose of the GOVERN function?",
+    "gold_page": 26,
+    "gold_anchor": "cultivates and implements a culture of risk management"
+  },
+  {
+    "id": 6,
+    "question": "What does the MAP function establish about an AI system?",
+    "gold_page": 29,
+    "gold_anchor": "establishes the context to frame risks"
+  },
+  {
+    "id": 7,
+    "question": "What is the role of the MEASURE function?",
+    "gold_page": 33,
+    "gold_anchor": "employs quantitative, qualitative, or mixed-method tools"
+  },
+  {
+    "id": 8,
+    "question": "What is the main purpose of the MANAGE function?",
+    "gold_page": 36,
+    "gold_anchor": "entails allocating risk resources"
+  },
+  {
+    "id": 9,
+    "question": "What should organizations consider when prioritizing AI risks?",
+    "gold_page": 13,
+    "gold_anchor": "Risk prioritization may differ"
+  },
+  {
+    "id": 10,
+    "question": "What are AI RMF Profiles used for?",
+    "gold_page": 38,
+    "gold_anchor": "AI RMF use-case profiles are implementations"
+  },
+  {
+    "id": 11,
+    "question": "What characteristics does NIST identify as necessary for trustworthy AI systems?",
+    "gold_page": 17,
+    "gold_anchor": "Characteristics of trustworthy AI systems include"
+  },
+  {
+    "id": 12,
+    "question": "Is the NIST AI RMF intended to be voluntary or mandatory?",
+    "gold_page": 7,
+    "gold_anchor": "Framework is intended to be voluntary"
+  },
+  {
+    "id": 13,
+    "question": "Who are AI actors in the context of the AI RMF?",
+    "gold_page": 7,
+    "gold_anchor": "AI actors are defined"
+  },
+  {
+    "id": 14,
+    "question": "How can changes in training data affect an AI system?",
+    "gold_page": 6,
+    "gold_anchor": "trained on data that can change over time"
+  },
+  {
+    "id": 15,
+    "question": "Why should organizations consider risks associated with third-party software and data?",
+    "gold_page": 10,
+    "gold_anchor": "Risks related to third-party software, hardware, and data"
+  }
+]

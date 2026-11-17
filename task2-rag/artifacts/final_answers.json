@@ -1,0 +1,498 @@
+[
+  {
+    "id": 1,
+    "question": "How does NIST define an AI system?",
+    "answer": "an engineered or machine-based system that can, for a given set of objectives, generate outputs such as predictions, recommendations, or decisions influencing real or virtual environments",
+    "sources": [
+      6,
+      46,
+      21,
+      35,
+      5,
+      28
+    ],
+    "evidence": [
+      "NIST AI 100-1 AI RMF 1.0 ple, how a human operator or user is notified when a potential or actual adverse outcome caused by an AI system is detected.",
+      "NIST AI 100-1 AI RMF 1.0 4.",
+      "The AI RMF refers to an AI system as an engineered or machine-based system that can, for a given set of objectives, generate outputs such as predictions, recommendations, or decisions influencing real or virtual environments.",
+      "NIST AI 100-1 AI RMF 1.0 Table 3: Categories and subcategories for the MEASURE function. (Continued) MEASURE 2.6: The AI system is evaluated regularly for safety risks – as identified in the MAP function.",
+      "The MAP function suggests opportunities to define and document processes for operator and practitioner proficiency with AI system performance and trustworthiness concepts, and to define relevant technical standards and certifications."
+    ],
+    "evidence_pages": [
+      21,
+      46,
+      6,
+      35
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "an engineered or machine-based system that can, for a given set of objectives, generate outputs such as predictions, recommendations, or decisions influencing real or virtual environments",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      6,
+      46,
+      21,
+      35,
+      5,
+      28
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Why can AI systems create risks that differ from traditional software systems?",
+    "answer": "The data used for building an AI system may not be a true or appropriate representation of the context or intended use",
+    "sources": [
+      43,
+      6,
+      44,
+      11,
+      13
+    ],
+    "evidence": [
+      "While there are myriad standards and best practices to help organizations mitigate the risks of traditional software or information-based systems, the risks posed by AI systems are in many ways unique (See Appendix B).",
+      "NIST AI 100-1 AI RMF 1.0 Appendix B: How AI Risks Differ from Traditional Software Risks As with traditional software, risks from AI-based technology can be bigger than an enterprise, span organizations, and lead to societal impacts.",
+      "Compared to traditional software, AI-specific risks that are new or increased include the following: • The data used for building an AI system may not be a true or appropriate representation of the context or intended use of",
+      "Both AI and traditional software technologies and systems are subject to rapid innovation.",
+      "• AI system scale and complexity (many systems contain billions or even trillions of decision points) housed within more traditional software applications."
+    ],
+    "evidence_pages": [
+      6,
+      43,
+      44
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "The data used for building an AI system may not be a true or appropriate representation of the context or intended use",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      43,
+      6,
+      44,
+      11,
+      13
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What are the four core functions of the NIST AI RMF?",
+    "answer": "GOVERN, MAP, MEASURE, and MANAGE",
+    "sources": [
+      25,
+      8,
+      38,
+      37,
+      44
+    ],
+    "evidence": [
+      "As illustrated in Figure 5, the Core is composed of four functions: GOVERN, MAP, MEASURE, and MANAGE.",
+      "AI RMF Core functions should be carried out in a way that reflects diverse and multidisciplinary perspectives, potentially including the views of AI actors outside the organization.",
+      "AI RMF Core The AI RMF Core provides outcomes and actions that enable dialogue, understanding, and activities to manage AI risks and responsibly develop trustworthy AI systems.",
+      "NIST AI 100-1 AI RMF 1.0 Part 2: Core and Profiles 5.",
+      "NIST AI 100-1 AI RMF 1.0 Practices related to managing AI risks are described in the NIST AI RMF Playbook."
+    ],
+    "evidence_pages": [
+      25,
+      37
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "GOVERN, MAP, MEASURE, and MANAGE",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      25,
+      8,
+      38,
+      37,
+      44
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What does validity and reliability mean for an AI system?",
+    "answer": "Reliability is a goal for overall correctness of AI system operation under the conditions of expected use and over a given period of time, including the entire lifetime of the system.",
+    "sources": [
+      18,
+      19,
+      35
+    ],
+    "evidence": [
+      "Validity and reliability for deployed AI systems are often assessed by ongoing testing or monitoring that confirms a system is performing as intended.",
+      "Reliability is a goal for overall correctness of AI system operation under the conditions of expected use and over a given period of time, including the entire lifetime of the system.",
+      "NIST AI 100-1 AI RMF 1.0 Accuracy and robustness contribute to the validity and trustworthiness of AI systems, and can be in tension with one another in AI systems.",
+      "Measurement of validity, accuracy, robustness, and reliability contribute to trustworthiness and should take into consideration that certain types of failures can cause greater harm.",
+      "Accuracy is defined by ISO/IEC TS 5723:2022 as “closeness of results of observations, computations, or estimates to the true values or the values accepted as being true.” Measures of accuracy should consider computational-centric measures (e.g., false positive and false negative rates), human-AI teaming, and demonstrate external validity (generalizable beyond the training conditions)."
+    ],
+    "evidence_pages": [
+      19,
+      18
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "Reliability is a goal for overall correctness of AI system operation under the conditions of expected use and over a given period of time, including the entire lifetime of the system.",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      18,
+      19,
+      35
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the purpose of the GOVERN function?",
+    "answer": "cultivates and implements a culture of risk management within organizations designing, developing, deploying, evaluating, or acquiring AI systems",
+    "sources": [
+      26,
+      27,
+      28,
+      29
+    ],
+    "evidence": [
+      "5.1 Govern The GOVERN function: • cultivates and implements a culture of risk management within organizations designing, developing, deploying, evaluating, or acquiring AI systems; • outlines processes, documents, and organizational schemes that anticipate, identify, and manage the risks a system can pose, including to users and others across society – and procedures to achieve those outcomes; • incorporates processes to assess potential impacts; • provides a structure by which AI risk management functions can align with organizational principles, policies, and strategic priorities; • connects technical aspects of AI system design and development to organizational values and principles, and enables organizational practices and competencies for the individuals involved in acquiring, training, deploying, and monitoring such systems; and • addresses full product lifecycle and associated processes, including",
+      "NIST AI 100-1 AI RMF 1.0 GOVERN is a cross-cutting function that is infused throughout AI risk management and enables the other functions of the process.",
+      "NIST AI 100-1 AI RMF 1.0 Table 1: Categories and subcategories for the GOVERN function. (Continued) GOVERN 1.5: Ongoing monitoring and periodic review of the risk management process and its outcomes are planned and organizational roles and responsibilities clearly defined, including determining the frequency of periodic review.",
+      "5.1 Govern The GOVERN function: • cultivates",
+      "It is incumbent on Framework users to continue to execute the GOVERN function as knowledge, cultures, and needs or expectations from AI actors evolve over time."
+    ],
+    "evidence_pages": [
+      26,
+      27,
+      28
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "cultivates and implements a culture of risk management within organizations designing, developing, deploying, evaluating, or acquiring AI systems",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What does the MAP function establish about an AI system?",
+    "answer": "context to frame risks related to an AI system",
+    "sources": [
+      31,
+      30,
+      46,
+      35,
+      29
+    ],
+    "evidence": [
+      "Categories Subcategories 5.2 Map The MAP function establishes the context to frame risks related to an AI system.",
+      "MEASURE 2.9: The AI model is explained, validated, and documented, and AI system output is interpreted within its context – as identified in the MAP function – to inform responsible use and governance.",
+      "The MAP function suggests opportunities to define and document processes for operator and practitioner proficiency with AI system performance and trustworthiness concepts, and to define relevant technical standards and certifications.",
+      "MEASURE 2.10: Privacy risk of the AI system – as identified in the MAP function – is examined and documented.",
+      "MAP function categories and subcategories may help organizations improve their internal competency for analyzing context, identifying procedural and system limitations, exploring and examining impacts of AI-based systems in the real world, and evaluating decision-making processes throughout the AI lifecycle."
+    ],
+    "evidence_pages": [
+      29,
+      35,
+      46
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "context to frame risks related to an AI system",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      31,
+      30,
+      46,
+      35,
+      29
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is the role of the MEASURE function?",
+    "answer": "to analyze, assess, benchmark, and monitor AI risk and related impacts",
+    "sources": [
+      33,
+      34,
+      35
+    ],
+    "evidence": [
+      "Categories Subcategories 5.3 Measure The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts.",
+      "MEASURE 2.13: Effectiveness of the employed TEVV metrics and processes in the MEASURE function are evaluated and documented.",
+      "NIST AI 100-1 AI RMF 1.0 Table 3: Categories and subcategories for the MEASURE function. (Continued) MEASURE 2.6: The AI system is evaluated regularly for safety risks – as identified in the MAP function.",
+      "Table 3: Categories and subcategories for the MEASURE function.",
+      "Table 3 lists the MEASURE function’s categories and subcategories."
+    ],
+    "evidence_pages": [
+      33,
+      35,
+      34
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "to analyze, assess, benchmark, and monitor AI risk and related impacts",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is the main purpose of the MANAGE function?",
+    "answer": "allocating risk resources to mapped and measured risks on a regular basis",
+    "sources": [
+      37,
+      36,
+      38,
+      30
+    ],
+    "evidence": [
+      "Categories Subcategories 5.4 Manage The MANAGE function entails allocating risk resources to mapped and measured risks on a regular basis and as defined by the GOVERN function.",
+      "Outcomes in the MAP function are the basis for the MEASURE and MANAGE functions.",
+      "It is incumbent on Framework users to continue to apply the MANAGE function to deployed AI systems as methods, contexts, risks, and needs or expectations from relevant AI actors evolve over time.",
+      "Table 4: Categories and subcategories for the MANAGE function.",
+      "After completing the MANAGE function, plans for prioritizing risk and regular monitoring and improvement will be in place."
+    ],
+    "evidence_pages": [
+      36,
+      30,
+      37
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "allocating risk resources to mapped and measured risks on a regular basis",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      37,
+      36,
+      38,
+      30
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What should organizations consider when prioritizing AI risks?",
+    "answer": "risks which the organization determines to be highest for the AI systems within a given context of use call for the most urgent prioritization and most thorough risk management process",
+    "sources": [
+      13,
+      12,
+      10,
+      47,
+      9
+    ],
+    "evidence": [
+      "Risk prioritization may differ between AI systems that are designed or deployed to directly interact with humans as compared to AI systems that are not.",
+      "NIST AI 100-1 AI RMF 1.0 When applying the AI RMF, risks which the organization determines to be highest for the AI systems within a given context of use call for the most urgent prioritization and most thorough risk management process.",
+      "If an AI system’s development, deployment, and use cases are found to be low-risk in a specific context, that may suggest potentially lower prioritization.",
+      "Higher initial prioritization may be called for in settings where the AI system is",
+      "1.2.3 Risk Prioritization Attempting to eliminate negative risk entirely can be counterproductive in practice because not all incidents and failures can be eliminated."
+    ],
+    "evidence_pages": [
+      13,
+      12
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "risks which the organization determines to be highest for the AI systems within a given context of use call for the most urgent prioritization and most thorough risk management process",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      13,
+      12,
+      10,
+      47,
+      9
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What are AI RMF Profiles used for?",
+    "answer": "AI RMF use-case profiles are implementations of the AI RMF functions, categories, and subcategories for a specific setting or application based on the requirements, risk tolerance, and resources of the Framework user: for example, an AI RMF hiring profile or an AI RMF fair housing profile.",
+    "sources": [
+      38,
+      39,
+      25,
+      14
+    ],
+    "evidence": [
+      "AI RMF Profiles AI RMF use-case profiles are implementations of the AI RMF functions, categories, and subcategories for a specific setting or application based on the requirements, risk tolerance, and resources of the Framework user: for example, an AI RMF hiring profile or an AI RMF fair housing profile.",
+      "AI RMF Profiles AI RMF use-case profiles are implementations of the AI RMF functions, categories, and subcategories for a",
+      "NIST AI 100-1 AI RMF 1.0 AI RMF cross-sectoral profiles cover risks of models or applications that can be used across use cases or sectors.",
+      "The AI RMF is intended to be used by AI actors across the AI lifecycle and dimensions.",
+      "AI RMF profiles assist organizations in deciding how they might best manage AI risk that is well-aligned with their goals, considers legal/regulatory requirements and best practices, and reflects risk management priorities."
+    ],
+    "evidence_pages": [
+      38,
+      39,
+      14
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "AI RMF use-case profiles are implementations of the AI RMF functions, categories, and subcategories for a specific setting or application based on the requirements, risk tolerance, and resources of the Framework user: for example, an AI RMF hiring profile or an AI RMF fair housing profile.",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      38,
+      39,
+      25,
+      14
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What characteristics does NIST identify as necessary for trustworthy AI systems?",
+    "answer": "valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed",
+    "sources": [
+      17,
+      44,
+      7,
+      5,
+      10
+    ],
+    "evidence": [
+      "Characteristics of trustworthy AI systems include: valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.",
+      "As part of the effort to address AI trustworthiness characteristics such as “Secure and Resilient” and “Privacy-Enhanced,” organizations may consider leveraging available standards and guidance that provide broad guidance to organizations to reduce security and privacy risks, such as, but not limited to, the NIST Cybersecurity Framework, the NIST Privacy Framework, the NIST Risk Management Framework, and the Secure Software Development Framework.",
+      "4 Characteristics of trustworthy AI systems.",
+      "Characteristics of trustworthy AI systems.",
+      "This Framework articulates the following characteristics of trustworthy AI and offers guidance for addressing them."
+    ],
+    "evidence_pages": [
+      17,
+      44,
+      5
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      17,
+      44,
+      7,
+      5,
+      10
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Is the NIST AI RMF intended to be voluntary or mandatory?",
+    "answer": "The Framework is intended to be voluntary, rights-preserving, non-sector-specific, and use-case agnostic, providing flexibility to organizations of all sizes and in all sectors and throughout society to implement the approaches in the Framework. Like the AI RMF, the Playbook is voluntary and organizations can utilize the suggestions according to their needs and interests. Be risk-based, resource-efficient, pro-innovation, and voluntary. The AI RMF is intended Use of the AI RMF alone will not lead to these changes or provide the appropriate incentives.",
+    "sources": [
+      47,
+      26,
+      7,
+      3,
+      14
+    ],
+    "evidence": [
+      "The Framework is intended to be voluntary, rights-preserving, non-sector-specific, and use-case agnostic, providing flexibility to organizations of all sizes and in all sectors and throughout society to implement the approaches in the Framework.",
+      "Like the AI RMF, the Playbook is voluntary and organizations can utilize the suggestions according to their needs and interests.",
+      "Be risk-based, resource-efficient, pro-innovation, and voluntary.",
+      "The AI RMF is intended",
+      "Use of the AI RMF alone will not lead to these changes or provide the appropriate incentives."
+    ],
+    "evidence_pages": [
+      7,
+      26,
+      47,
+      14
+    ],
+    "method": "Extractive fallback",
+    "llm_output": "voluntary",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      47,
+      26,
+      7,
+      3,
+      14
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Who are AI actors in the context of the AI RMF?",
+    "answer": "AI actors involved in these dimensions who perform or manage the design, development, deployment, evaluation, and use of AI systems and drive AI risk management efforts are the primary AI RMF audience.",
+    "sources": [
+      14,
+      40,
+      7,
+      42,
+      16
+    ],
+    "evidence": [
+      "AI actors are defined by the Organisation for Economic Co-operation and Development (OECD) as “those who play an active role in the AI system lifecycle, including organizations and individuals that deploy or operate AI” [OECD (2019) Artificial Intelligence in Society—OECD iLibrary] (See Appendix A).",
+      "AI actors involved in these dimensions who perform or manage the design, development, deployment, evaluation, and use of AI systems and drive AI risk management efforts are the primary AI RMF audience.",
+      "NIST AI 100-1 AI RMF 1.0 Appendix A: Descriptions of AI Actor Tasks from Figures 2 and 3 AI Design tasks are performed during the Application Context and Data and Input phases of the AI lifecycle in Figure 2.",
+      "and individuals – referred to here as AI actors – with approaches that increase the trustworthiness of AI systems, and to help foster the responsible design, development, deployment, and use of AI systems over time.",
+      "AI Design actors create the concept and objectives of AI systems and are responsible for the planning, design, and data collection and processing tasks of the AI system so that the AI system is lawful and fit-for-purpose."
+    ],
+    "evidence_pages": [
+      7,
+      14,
+      40
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "AI actors involved in these dimensions who perform or manage the design, development, deployment, evaluation, and use of AI systems and drive AI risk management efforts are the primary AI RMF audience.",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      14,
+      40,
+      7,
+      42,
+      16
+    ]
+  },
+  {
+    "id": 14,
+    "question": "How can changes in training data affect an AI system?",
+    "answer": "Intentional or unintentional changes during training may fundamentally alter AI system performance",
+    "sources": [
+      43,
+      21,
+      6,
+      20
+    ],
+    "evidence": [
+      "AI systems, for example, may be trained on data that can change over time, sometimes significantly and unexpectedly, affecting system functionality and trustworthiness in ways that are hard to understand.",
+      "• Intentional or unintentional changes during training may fundamentally alter AI system performance.",
+      "Maintaining the provenance of training data and supporting attribution of the AI system’s decisions to subsets of training data can assist with both transparency and accountability.",
+      "Common security concerns relate to adversarial examples, data poisoning, and the exfiltration of models, training data, or other intellectual property through AI system endpoints.",
+      "Training data may also be subject to copyright and should follow applicable intellectual property rights laws."
+    ],
+    "evidence_pages": [
+      6,
+      43,
+      21,
+      20
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "Intentional or unintentional changes during training may fundamentally alter AI system performance",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      43,
+      21,
+      6,
+      20
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Why should organizations consider risks associated with third-party software and data?",
+    "answer": "accelerate research and development and facilitate technology transition",
+    "sources": [
+      10,
+      29,
+      26,
+      32,
+      13
+    ],
+    "evidence": [
+      "Some risk measurement challenges include: Risks related to third-party software, hardware, and data: Third-party data or systems can accelerate research and development and facilitate technology transition.",
+      "GOVERN 6: Policies and procedures are in place to address AI risks and benefits arising from third-party software and data and other supply chain issues.",
+      "Risk can emerge both from third-party data, software or hardware itself and how it is used.",
+      "Risk can emerge both from third-party data, software or hardware itself and how",
+      "MAP 4: Risks and benefits are mapped for all components of the AI system including third-party software and data."
+    ],
+    "evidence_pages": [
+      10,
+      29,
+      32
+    ],
+    "method": "FLAN-T5-large",
+    "llm_output": "accelerate research and development and facilitate technology transition",
+    "answer_overlap": 1.0,
+    "retrieved_pages": [
+      10,
+      29,
+      26,
+      32,
+      13
+    ]
+  }
+]

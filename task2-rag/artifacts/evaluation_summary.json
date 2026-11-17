@@ -1,0 +1,23 @@
+{
+  "total_questions": 15,
+  "small_chunks": {
+    "chunk_size": 150,
+    "overlap": 30,
+    "recall_at_5": 0.8,
+    "hits": 12
+  },
+  "large_chunks": {
+    "chunk_size": 300,
+    "overlap": 50,
+    "recall_at_5": 0.6,
+    "hits": 9
+  },
+  "hybrid_reranking": {
+    "candidate_count": 10,
+    "dense_bm25_pool_per_query": 50,
+    "final_top_k": 6,
+    "recall_at_6": 1.0,
+    "hits": 15
+  },
+  "retrieval_failures": 0
+}

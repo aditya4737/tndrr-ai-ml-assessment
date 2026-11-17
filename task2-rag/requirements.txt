@@ -1,0 +1,10 @@
+numpy
+pandas
+pypdf
+requests
+sentence-transformers
+rank-bm25
+transformers
+sentencepiece
+torch
+tqdm

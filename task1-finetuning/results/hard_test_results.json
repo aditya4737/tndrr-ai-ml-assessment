@@ -1,0 +1,68 @@
+{
+  "total": 10,
+  "correct": 6,
+  "failed": 4,
+  "accuracy": 60.0,
+  "failures": [
+    {
+      "input": "Please arrange a call with Sebastian on Thursday at quarter past nine in the morning.",
+      "expected": {
+        "action": "create_meeting",
+        "person": "Sebastian",
+        "date": "Thursday",
+        "time": "09:15"
+      },
+      "predicted": {
+        "action": "create_meeting",
+        "person": "Sebastian",
+        "date": "Thursday",
+        "time": "09:00"
+      }
+    },
+    {
+      "input": "Book a meeting with Elena on Sunday at 7:15 AM.",
+      "expected": {
+        "action": "create_meeting",
+        "person": "Elena",
+        "date": "Sunday",
+        "time": "07:15"
+      },
+      "predicted": {
+        "action": "create_meeting",
+        "person": "Elena",
+        "date": "Sunday",
+        "time": "15:15"
+      }
+    },
+    {
+      "input": "Schedule a discussion with Mateo for tomorrow at 8:45 PM.",
+      "expected": {
+        "action": "create_meeting",
+        "person": "Mateo",
+        "date": "tomorrow",
+        "time": "20:45"
+      },
+      "predicted": {
+        "action": "create_meeting",
+        "person": "Mateo",
+        "date": "tomorrow",
+        "time": "09:45"
+      }
+    },
+    {
+      "input": "Arrange a session with Sophia two days from now at 10:30 AM.",
+      "expected": {
+        "action": "create_meeting",
+        "person": "Sophia",
+        "date": "two days from now",
+        "time": "10:30"
+      },
+      "predicted": {
+        "action": "create_meeting",
+        "person": "Sophia",
+        "date": "two days from now",
+        "time": "10:30:00"
+      }
+    }
+  ]
+}

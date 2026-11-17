@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "question": "How does NIST define an AI system?",
+    "gold_page": 6,
+    "retrieved_pages": [
+      6,
+      23,
+      42,
+      8,
+      40
+    ],
+    "gold_passage_found": true,
+    "matching_ranks": [
+      1
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Why can AI systems create risks that differ from traditional software systems?",
+    "gold_page": 6,
+    "retrieved_pages": [
+      9,
+      10,
+      11,
+      43,
+      13
+    ],
+    "gold_passage_found": false,
+    "matching_ranks": []
+  },
+  {
+    "id": 3,
+    "question": "What are the four core functions of the NIST AI RMF?",
+    "gold_page": 8,
+    "retrieved_pages": [
+      25,
+      8,
+      26,
+      38,
+      6
+    ],
+    "gold_passage_found": true,
+    "matching_ranks": [
+      2
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What does validity and reliability mean for an AI system?",
+    "gold_page": 18,
+    "retrieved_pages": [
+      18,
+      19,
+      17,
+      35,
+      32
+    ],
+    "gold_passage_found": true,
+    "matching_ranks": [
+      1
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the purpose of the GOVERN function?",
+    "gold_page": 26,
+    "retrieved_pages": [
+      28,
+      28,
+      29,
+      27,
+      46
+    ],
+    "gold_passage_found": false,
+    "matching_ranks": []
+  },
+  {
+    "id": 6,
+    "question": "What does the MAP function establish about an AI system?",
+    "gold_page": 29,
+    "retrieved_pages": [
+      46,
+      30,
+      34,
+      35,
+      31
+    ],
+    "gold_passage_found": false,
+    "matching_ranks": []
+  },
+  {
+    "id": 7,
+    "question": "What is the role of the MEASURE function?",
+    "gold_page": 33,
+    "retrieved_pages": [
+      33,
+      25,
+      33,
+      30,
+      34
+    ],
+    "gold_passage_found": true,
+    "matching_ranks": [
+      3
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is the main purpose of the MANAGE function?",
+    "gold_page": 36,
+    "retrieved_pages": [
+      37,
+      26,
+      28,
+      25,
+      46
+    ],
+    "gold_passage_found": false,
+    "matching_ranks": []
+  },
+  {
+    "id": 9,
+    "question": "What should organizations consider when prioritizing AI risks?",
+    "gold_page": 13,
+    "retrieved_pages": [
+      13,
+      12,
+      6,
+      9,
+      19
+    ],
+    "gold_passage_found": true,
+    "matching_ranks": [
+      1
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What are AI RMF Profiles used for?",
+    "gold_page": 38,
+    "retrieved_pages": [
+      38,
+      39,
+      8,
+      25,
+      26
+    ],
+    "gold_passage_found": true,
+    "matching_ranks": [
+      1
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What characteristics does NIST identify as necessary for trustworthy AI systems?",
+    "gold_page": 17,
+    "retrieved_pages": [
+      17,
+      5,
+      19,
+      18,
+      6
+    ],
+    "gold_passage_found": true,
+    "matching_ranks": [
+      1
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Is the NIST AI RMF intended to be voluntary or mandatory?",
+    "gold_page": 7,
+    "retrieved_pages": [
+      24,
+      26,
+      6,
+      47,
+      8
+    ],
+    "gold_passage_found": false,
+    "matching_ranks": []
+  },
+  {
+    "id": 13,
+    "question": "Who are AI actors in the context of the AI RMF?",
+    "gold_page": 7,
+    "retrieved_pages": [
+      16,
+      40,
+      14,
+      7,
+      14
+    ],
+    "gold_passage_found": true,
+    "matching_ranks": [
+      4
+    ]
+  },
+  {
+    "id": 14,
+    "question": "How can changes in training data affect an AI system?",
+    "gold_page": 6,
+    "retrieved_pages": [
+      43,
+      43,
+      44,
+      21,
+      23
+    ],
+    "gold_passage_found": false,
+    "matching_ranks": []
+  },
+  {
+    "id": 15,
+    "question": "Why should organizations consider risks associated with third-party software and data?",
+    "gold_page": 10,
+    "retrieved_pages": [
+      10,
+      13,
+      37,
+      9,
+      27
+    ],
+    "gold_passage_found": true,
+    "matching_ranks": [
+      1
+    ]
+  }
+]

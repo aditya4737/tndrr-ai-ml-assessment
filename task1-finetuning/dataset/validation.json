@@ -1,0 +1,402 @@
+[
+  {
+    "input": "Set up a call with Rahul next Monday at 1 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rahul\", \"date\": \"next Monday\", \"time\": \"13:00\"}"
+  },
+  {
+    "input": "Create a meeting with Arjun on next Monday at 1 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Arjun\", \"date\": \"next Monday\", \"time\": \"13:00\"}"
+  },
+  {
+    "input": "I need to meet Rohan Wednesday at 11 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rohan\", \"date\": \"Wednesday\", \"time\": \"11:00\"}"
+  },
+  {
+    "input": "I need to meet Amit today at 9 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Amit\", \"date\": \"today\", \"time\": \"09:00\"}"
+  },
+  {
+    "input": "Book a meeting with John for tomorrow at 10 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"John\", \"date\": \"tomorrow\", \"time\": \"10:00\"}"
+  },
+  {
+    "input": "Schedule a meeting with Rohan next Friday at 5 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rohan\", \"date\": \"next Friday\", \"time\": \"17:00\"}"
+  },
+  {
+    "input": "Arrange an appointment with Neha next Friday at 10 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Neha\", \"date\": \"next Friday\", \"time\": \"10:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Rahul Tuesday at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rahul\", \"date\": \"Tuesday\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Schedule a meeting with David Monday at 4 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"David\", \"date\": \"Monday\", \"time\": \"16:00\"}"
+  },
+  {
+    "input": "Create a meeting with Neha on tomorrow at 9 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Neha\", \"date\": \"tomorrow\", \"time\": \"09:00\"}"
+  },
+  {
+    "input": "I need to meet Ananya Wednesday at 3 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Ananya\", \"date\": \"Wednesday\", \"time\": \"15:00\"}"
+  },
+  {
+    "input": "I need to meet Sarah next Friday at 1 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sarah\", \"date\": \"next Friday\", \"time\": \"13:00\"}"
+  },
+  {
+    "input": "Schedule a meeting with Ananya next Friday at 11 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Ananya\", \"date\": \"next Friday\", \"time\": \"11:00\"}"
+  },
+  {
+    "input": "Arrange an appointment with Emily next Monday at 3 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Emily\", \"date\": \"next Monday\", \"time\": \"15:00\"}"
+  },
+  {
+    "input": "Create a meeting with Rahul on Thursday at 1 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rahul\", \"date\": \"Thursday\", \"time\": \"13:00\"}"
+  },
+  {
+    "input": "Arrange an appointment with Emily next Friday at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Emily\", \"date\": \"next Friday\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Set up a call with David next Monday at 9 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"David\", \"date\": \"next Monday\", \"time\": \"09:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Emily tomorrow at 10 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Emily\", \"date\": \"tomorrow\", \"time\": \"10:00\"}"
+  },
+  {
+    "input": "I need to meet Emily Thursday at 3 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Emily\", \"date\": \"Thursday\", \"time\": \"15:00\"}"
+  },
+  {
+    "input": "Arrange an appointment with Priya Friday at 5 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Priya\", \"date\": \"Friday\", \"time\": \"17:00\"}"
+  },
+  {
+    "input": "Create a meeting with David on next Monday at 10 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"David\", \"date\": \"next Monday\", \"time\": \"10:00\"}"
+  },
+  {
+    "input": "I need to meet Priya Wednesday at 3 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Priya\", \"date\": \"Wednesday\", \"time\": \"15:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Rohan Thursday at 10 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rohan\", \"date\": \"Thursday\", \"time\": \"10:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Sneha today at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sneha\", \"date\": \"today\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Arrange an appointment with Amit next Monday at 5 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Amit\", \"date\": \"next Monday\", \"time\": \"17:00\"}"
+  },
+  {
+    "input": "Set up a call with Rahul Friday at 2 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rahul\", \"date\": \"Friday\", \"time\": \"14:00\"}"
+  },
+  {
+    "input": "Arrange an appointment with Rohan next Friday at 4 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rohan\", \"date\": \"next Friday\", \"time\": \"16:00\"}"
+  },
+  {
+    "input": "I need to meet Priya Friday at 5 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Priya\", \"date\": \"Friday\", \"time\": \"17:00\"}"
+  },
+  {
+    "input": "I need to meet Sarah Friday at 10 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sarah\", \"date\": \"Friday\", \"time\": \"10:00\"}"
+  },
+  {
+    "input": "Set up a call with Priya next Monday at 4 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Priya\", \"date\": \"next Monday\", \"time\": \"16:00\"}"
+  },
+  {
+    "input": "Create a meeting with Sarah on Friday at 11 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sarah\", \"date\": \"Friday\", \"time\": \"11:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Sneha next Friday at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sneha\", \"date\": \"next Friday\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Set up a call with Priya Wednesday at 4 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Priya\", \"date\": \"Wednesday\", \"time\": \"16:00\"}"
+  },
+  {
+    "input": "Create a meeting with John on Friday at 10 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"John\", \"date\": \"Friday\", \"time\": \"10:00\"}"
+  },
+  {
+    "input": "Arrange an appointment with Amit next Monday at 2 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Amit\", \"date\": \"next Monday\", \"time\": \"14:00\"}"
+  },
+  {
+    "input": "Book a meeting with John for tomorrow at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"John\", \"date\": \"tomorrow\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Book a meeting with Neha for today at 10 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Neha\", \"date\": \"today\", \"time\": \"10:00\"}"
+  },
+  {
+    "input": "Set up a call with Daniel Thursday at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Daniel\", \"date\": \"Thursday\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Book a meeting with John for Monday at 4 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"John\", \"date\": \"Monday\", \"time\": \"16:00\"}"
+  },
+  {
+    "input": "Schedule a meeting with Meera Monday at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Meera\", \"date\": \"Monday\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Book a meeting with Emily for Monday at 2 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Emily\", \"date\": \"Monday\", \"time\": \"14:00\"}"
+  },
+  {
+    "input": "Book a meeting with Arjun for next Monday at 2 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Arjun\", \"date\": \"next Monday\", \"time\": \"14:00\"}"
+  },
+  {
+    "input": "Book a meeting with Arjun for Friday at 11 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Arjun\", \"date\": \"Friday\", \"time\": \"11:00\"}"
+  },
+  {
+    "input": "Schedule a meeting with Sneha today at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sneha\", \"date\": \"today\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Arrange an appointment with David Monday at 1 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"David\", \"date\": \"Monday\", \"time\": \"13:00\"}"
+  },
+  {
+    "input": "Create a meeting with Emily on Wednesday at 5 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Emily\", \"date\": \"Wednesday\", \"time\": \"17:00\"}"
+  },
+  {
+    "input": "Set up a call with Rahul Thursday at 11 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rahul\", \"date\": \"Thursday\", \"time\": \"11:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Rahul Wednesday at 1 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rahul\", \"date\": \"Wednesday\", \"time\": \"13:00\"}"
+  },
+  {
+    "input": "Arrange an appointment with Meera Tuesday at 3 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Meera\", \"date\": \"Tuesday\", \"time\": \"15:00\"}"
+  },
+  {
+    "input": "Arrange an appointment with Sneha Thursday at 4 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sneha\", \"date\": \"Thursday\", \"time\": \"16:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Priya tomorrow at 1 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Priya\", \"date\": \"tomorrow\", \"time\": \"13:00\"}"
+  },
+  {
+    "input": "Create a meeting with Neha on tomorrow at 5 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Neha\", \"date\": \"tomorrow\", \"time\": \"17:00\"}"
+  },
+  {
+    "input": "Create a meeting with Daniel on Thursday at 10 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Daniel\", \"date\": \"Thursday\", \"time\": \"10:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Emily Tuesday at 9 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Emily\", \"date\": \"Tuesday\", \"time\": \"09:00\"}"
+  },
+  {
+    "input": "I need to meet Daniel Tuesday at 3 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Daniel\", \"date\": \"Tuesday\", \"time\": \"15:00\"}"
+  },
+  {
+    "input": "I need to meet Arjun Friday at 5 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Arjun\", \"date\": \"Friday\", \"time\": \"17:00\"}"
+  },
+  {
+    "input": "Book a meeting with Sarah for Monday at 4 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sarah\", \"date\": \"Monday\", \"time\": \"16:00\"}"
+  },
+  {
+    "input": "Create a meeting with Amit on Thursday at 11 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Amit\", \"date\": \"Thursday\", \"time\": \"11:00\"}"
+  },
+  {
+    "input": "Schedule a meeting with Meera today at 11 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Meera\", \"date\": \"today\", \"time\": \"11:00\"}"
+  },
+  {
+    "input": "I need to meet Emily next Monday at 4 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Emily\", \"date\": \"next Monday\", \"time\": \"16:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Sneha next Friday at 11 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sneha\", \"date\": \"next Friday\", \"time\": \"11:00\"}"
+  },
+  {
+    "input": "Set up a call with Sarah today at 3 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sarah\", \"date\": \"today\", \"time\": \"15:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Rahul Friday at 1 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rahul\", \"date\": \"Friday\", \"time\": \"13:00\"}"
+  },
+  {
+    "input": "Book a meeting with Rahul for Monday at 4 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rahul\", \"date\": \"Monday\", \"time\": \"16:00\"}"
+  },
+  {
+    "input": "Set up a call with Amit Tuesday at 4 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Amit\", \"date\": \"Tuesday\", \"time\": \"16:00\"}"
+  },
+  {
+    "input": "Set up a call with Daniel Wednesday at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Daniel\", \"date\": \"Wednesday\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Set up a call with Emily tomorrow at 10 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Emily\", \"date\": \"tomorrow\", \"time\": \"10:00\"}"
+  },
+  {
+    "input": "Set up a call with Arjun Friday at 3 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Arjun\", \"date\": \"Friday\", \"time\": \"15:00\"}"
+  },
+  {
+    "input": "Book a meeting with Emily for today at 1 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Emily\", \"date\": \"today\", \"time\": \"13:00\"}"
+  },
+  {
+    "input": "Schedule a meeting with David next Friday at 5 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"David\", \"date\": \"next Friday\", \"time\": \"17:00\"}"
+  },
+  {
+    "input": "Arrange an appointment with David Thursday at 9 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"David\", \"date\": \"Thursday\", \"time\": \"09:00\"}"
+  },
+  {
+    "input": "Arrange an appointment with Neha next Friday at 2 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Neha\", \"date\": \"next Friday\", \"time\": \"14:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Ananya next Monday at 1 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Ananya\", \"date\": \"next Monday\", \"time\": \"13:00\"}"
+  },
+  {
+    "input": "Set up a call with Neha Friday at 11 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Neha\", \"date\": \"Friday\", \"time\": \"11:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Priya Wednesday at 10 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Priya\", \"date\": \"Wednesday\", \"time\": \"10:00\"}"
+  },
+  {
+    "input": "Arrange an appointment with Rohan next Friday at 3 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rohan\", \"date\": \"next Friday\", \"time\": \"15:00\"}"
+  },
+  {
+    "input": "I need to meet Neha Friday at 3 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Neha\", \"date\": \"Friday\", \"time\": \"15:00\"}"
+  },
+  {
+    "input": "Book a meeting with Priya for today at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Priya\", \"date\": \"today\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Book a meeting with David for next Monday at 9 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"David\", \"date\": \"next Monday\", \"time\": \"09:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Sneha Tuesday at 2 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sneha\", \"date\": \"Tuesday\", \"time\": \"14:00\"}"
+  },
+  {
+    "input": "Create a meeting with Emily on next Friday at 4 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Emily\", \"date\": \"next Friday\", \"time\": \"16:00\"}"
+  },
+  {
+    "input": "Create a meeting with Priya on Monday at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Priya\", \"date\": \"Monday\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Schedule a meeting with Sneha Monday at 11 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sneha\", \"date\": \"Monday\", \"time\": \"11:00\"}"
+  },
+  {
+    "input": "Set up a call with John Wednesday at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"John\", \"date\": \"Wednesday\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Create a meeting with Ananya on today at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Ananya\", \"date\": \"today\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Create a meeting with Amit on Wednesday at 9 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Amit\", \"date\": \"Wednesday\", \"time\": \"09:00\"}"
+  },
+  {
+    "input": "Book a meeting with Karan for today at 11 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Karan\", \"date\": \"today\", \"time\": \"11:00\"}"
+  },
+  {
+    "input": "Book a meeting with Rahul for next Monday at 11 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Rahul\", \"date\": \"next Monday\", \"time\": \"11:00\"}"
+  },
+  {
+    "input": "Create a meeting with Karan on Tuesday at 1 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Karan\", \"date\": \"Tuesday\", \"time\": \"13:00\"}"
+  },
+  {
+    "input": "Set up a call with Amit Monday at 9 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Amit\", \"date\": \"Monday\", \"time\": \"09:00\"}"
+  },
+  {
+    "input": "Please schedule a discussion with Amit tomorrow at 2 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Amit\", \"date\": \"tomorrow\", \"time\": \"14:00\"}"
+  },
+  {
+    "input": "Create a meeting with Priya on Wednesday at 4 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Priya\", \"date\": \"Wednesday\", \"time\": \"16:00\"}"
+  },
+  {
+    "input": "Set up a call with Arjun next Monday at 5 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Arjun\", \"date\": \"next Monday\", \"time\": \"17:00\"}"
+  },
+  {
+    "input": "Set up a call with David next Monday at 11 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"David\", \"date\": \"next Monday\", \"time\": \"11:00\"}"
+  },
+  {
+    "input": "Schedule a meeting with Ananya Friday at 3 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Ananya\", \"date\": \"Friday\", \"time\": \"15:00\"}"
+  },
+  {
+    "input": "Book a meeting with Karan for Monday at 9 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Karan\", \"date\": \"Monday\", \"time\": \"09:00\"}"
+  },
+  {
+    "input": "Create a meeting with Ananya on Friday at 9 AM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Ananya\", \"date\": \"Friday\", \"time\": \"09:00\"}"
+  },
+  {
+    "input": "Set up a call with Sarah Wednesday at 3 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sarah\", \"date\": \"Wednesday\", \"time\": \"15:00\"}"
+  },
+  {
+    "input": "Schedule a meeting with Sneha Wednesday at 12 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Sneha\", \"date\": \"Wednesday\", \"time\": \"12:00\"}"
+  },
+  {
+    "input": "Schedule a meeting with Meera tomorrow at 3 PM.",
+    "output": "{\"action\": \"create_meeting\", \"person\": \"Meera\", \"date\": \"tomorrow\", \"time\": \"15:00\"}"
+  }
+]

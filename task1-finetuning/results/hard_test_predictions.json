@@ -1,0 +1,12 @@
+[
+  "{\"action\": \"create_meeting\", \"person\": \"Isabella\", \"date\": \"tomorrow\", \"time\": \"19:30\"}",
+  "{\"action\": \"create_meeting\", \"person\": \"Gabriel\", \"date\": \"the day after tomorrow\", \"time\": \"08:00\"}",
+  "{\"action\": \"create_meeting\", \"person\": \"Zara\", \"date\": \"next Wednesday\", \"time\": \"16:30\"}",
+  "{\"action\": \"create_meeting\", \"person\": \"Sebastian\", \"date\": \"Thursday\", \"time\": \"09:00\"}",
+  "{\"action\": \"create_meeting\", \"person\": \"Chloe\", \"date\": \"Friday\", \"time\": \"18:45\"}",
+  "{\"action\": \"create_meeting\", \"person\": \"Ibrahim\", \"date\": \"next Monday\", \"time\": \"12:00\"}",
+  "{\"action\": \"create_meeting\", \"person\": \"Elena\", \"date\": \"Sunday\", \"time\": \"15:15\"}",
+  "{\"action\": \"create_meeting\", \"person\": \"Mateo\", \"date\": \"tomorrow\", \"time\": \"09:45\"}",
+  "{\"action\": \"create_meeting\", \"person\": \"Sophia\", \"date\": \"two days from now\", \"time\": \"10:30:00\"}",
+  "{\"action\": \"create_meeting\", \"person\": \"Ethan\", \"date\": \"Saturday\", \"time\": \"17:45\"}"
+]
